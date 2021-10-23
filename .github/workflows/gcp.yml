@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IMAGE_NAME: gcp-demo
-      PROJECT_id: tuk-scit-project
+      PROJECT_ID: tuk-scit-project
     steps:
     - name: Checkout
       uses: actions/checkout@v2
